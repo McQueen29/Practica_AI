@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Dangerous_Dogs', 'No_muzzle', 'muzzle']
+
+roboflow:
+  workspace: zpqls306
+  project: dog-muzzle-ilhnx
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zpqls306/dog-muzzle-ilhnx/dataset/3
